@@ -1,0 +1,20 @@
+/* Style the topnav */
+ul.topnav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color:darkolivegreen;
+}
+/* Style links in topnav */
+ul.topnav li a {
+  display: block;
+  color:cornsilk;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change color on hover */
+ul.topnav li a:hover {
+  background-color: #8DB14E;
+  color: #FFF8DC;
+}
